@@ -38,7 +38,7 @@ endif()
 #Cpptest_ct Integration
 if(CPPTEST_COVERAGE)
 
-  include(./../cpptest-coverage-ct.cmake)
+  include(./../cpptest-coverage.cmake)
 
 endif()
 
