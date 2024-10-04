@@ -92,11 +92,9 @@ function (cpptest_enable_coverage)
        -ignore "regex:*/*hoofs/test/integrationtests/*"   
        -ignore "regex:*/*posh/*"                          
        -ignore "regex:*/*platform/*"                      
-       -exclude "regex:*"                                 
-       -include "regex:*/*hoofs/test/*moduletests/test_container_vector.cpp" 
-       -include "regex:*/*hoofs/container/include/iox/detail/vector.inl"
-       #-include "regex:${CPPTEST_SOURCE_DIR}/iceoryx_hoofs/container/include/iox/detail/vector.inl" 
-      )
+       -exclude "regex:*"
+       -include "regex:*/*hoofs/container/include/iox/detail/vector.inl"                                 
+       -include "regex:*/*hoofs/test/*moduletests/test_container_vector.cpp")
  
 
   # Use advanced settings file for cpptestcc, if exists
