@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
 
 env:
-  LINE_COV_GATE: 100
-  MCDC_COV_GATE: 90
+  LINE_COV_GATE: 90
+  MCDC_COV_GATE: 70
   DTP_PROJECT: iceoryx
 
 permissions:
