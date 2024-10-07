@@ -94,7 +94,7 @@ function (cpptest_enable_coverage)
        -ignore "regex:*/*platform/*"                      
        -exclude "regex:*"
        -include "regex:*/*hoofs/container/include/iox/detail/vector.inl"                                 
-       -include "regex:*/*hoofs/test/*moduletests/test_container_vector.cpp")
+       -exclude "regex:*/*hoofs/test/*moduletests/test_container_vector.cpp")
  
 
   # Use advanced settings file for cpptestcc, if exists
