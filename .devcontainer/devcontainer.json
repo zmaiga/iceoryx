@@ -1,6 +1,0 @@
-{
-    "image": "iceoryx:latest",
-    "runArgs": [ "--rm" ],
-    "overrideCommand": false,
-    "mounts": ["type=bind,src=${localEnv:HOME}/.ssh,dst=/home/parasoft/.ssh"]
-}
