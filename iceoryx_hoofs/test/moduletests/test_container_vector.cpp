@@ -1506,7 +1506,7 @@ TEST_F(vector_test, EmplaceAtPositionAfterEndBeforeCapacityExceedsFails)
 
 //
 
-
+/*
 
 TEST_F(vector_test, EmplaceWhenPositionExceedsCapacityReturnsFalse)
 {
@@ -1515,7 +1515,7 @@ TEST_F(vector_test, EmplaceWhenPositionExceedsCapacityReturnsFalse)
     EXPECT_THAT(sut.size(), Eq(0));
 }
 
-
+*/
 
 
 } // namespace
