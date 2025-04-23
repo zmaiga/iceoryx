@@ -111,7 +111,7 @@ jobs:
 
       - name: Show Coverage HTML Link
         shell: bash
-        run: echo "Check html report https://parasoft-se.github.io/iceoryx/coverage.html"
+        run: echo "Check html report https://zmaiga.github.io/iceoryx/coverage.html"
         
       - name: Line Coverage Quality Gate
         working-directory: ${{github.workspace}}/build

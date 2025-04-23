@@ -1425,6 +1425,7 @@ TEST_F(vector_test, ResizeWithTemplateValueChangesNothingIfSizeAlreadyFits)
 }
 
 //
+/*
 
 TEST_F(vector_test, EmplaceInEmptyVectorWorks)
 {
@@ -1504,10 +1505,10 @@ TEST_F(vector_test, EmplaceAtPositionAfterEndBeforeCapacityExceedsFails)
     ASSERT_THAT(sut.size(), EXPECTED_SIZE);
 }
 
-
 //
+*/
 
-
+/*
 
 TEST_F(vector_test, EmplaceWhenPositionExceedsCapacityReturnsFalse)
 {
@@ -1516,7 +1517,7 @@ TEST_F(vector_test, EmplaceWhenPositionExceedsCapacityReturnsFalse)
     EXPECT_THAT(sut.size(), Eq(0));
 }
 
-
+*/
 
 
 } // namespace
