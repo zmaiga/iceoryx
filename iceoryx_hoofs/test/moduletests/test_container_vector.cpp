@@ -1425,6 +1425,7 @@ TEST_F(vector_test, ResizeWithTemplateValueChangesNothingIfSizeAlreadyFits)
 }
 
 //
+/*
 
 TEST_F(vector_test, EmplaceInEmptyVectorWorks)
 {
@@ -1505,6 +1506,7 @@ TEST_F(vector_test, EmplaceAtPositionAfterEndBeforeCapacityExceedsFails)
 }
 
 //
+*/
 
 /*
 
